@@ -33,8 +33,8 @@ import {
     type LasaMatch,
     type VerifiedMedicine,
     API_BASE,
-} from "../../lib/api";
-import LasaConfirmation from "../../components/scanner/LasaConfirmation";
+} from "@/lib/api";
+import LasaConfirmation from "@/components/scanner/LasaConfirmation";
 import { BarcodeScanner } from "@/components/scanner/BarcodeScanner";
 import LazyImage from "@/components/LazyImage";
 import { Skeleton } from "@/components/ui/Skeleton";
