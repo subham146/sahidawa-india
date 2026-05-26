@@ -65,7 +65,9 @@ describe("Voice Triage accessibility semantics", () => {
                     message: "Microphone blocked",
                 }}
                 retryLabel="Try Again"
+                switchToTextLabel="Type Instead"
                 onRetry={() => undefined}
+                onSwitchToText={() => undefined}
             />
         );
 
